@@ -63,7 +63,7 @@ class MusicLibraryController
     input = gets
     if list_songs.include?(input)
       song = list_songs[input]
-      puts "Playing #{}"
+      puts "Playing #{song}"
     end
   end
 end
