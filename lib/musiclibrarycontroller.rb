@@ -19,8 +19,11 @@ class MusicLibraryController
     
     input = gets
     
-    case input
-    when 
+      case input
+      when "list songs"
+      
+      
+    end
     end
   end
   
