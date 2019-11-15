@@ -59,6 +59,6 @@ class MusicLibraryController
   end
   
   def play_song
-    
+    input = gets
   end
 end
