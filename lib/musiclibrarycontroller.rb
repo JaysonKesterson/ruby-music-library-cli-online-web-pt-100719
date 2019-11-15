@@ -62,6 +62,7 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     input = gets
     if list_songs.include?(input)
+      song = list_songs[input]
       puts "Playing #{}"
     end
   end
